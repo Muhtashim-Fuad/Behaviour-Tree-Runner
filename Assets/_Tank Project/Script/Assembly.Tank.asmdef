@@ -1,0 +1,16 @@
+{
+    "name": "Assembly.Tank",
+    "rootNamespace": "",
+    "references": [
+        "GUID:209fc5765e3b36143847184c93ea7c80"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
