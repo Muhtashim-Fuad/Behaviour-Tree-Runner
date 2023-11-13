@@ -1,7 +1,4 @@
-﻿using System;
-using UnityEngine;
-
-namespace BehaviourTreePackage
+﻿namespace BehaviourTree
 {
     public class SelectorNode : CompositeNode
     {

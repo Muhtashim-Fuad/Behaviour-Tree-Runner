@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace BehaviourTreePackage
+namespace BehaviourTree
 {
     public class BehaviourTree
     {

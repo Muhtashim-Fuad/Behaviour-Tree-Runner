@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BehaviourTreePackage
+namespace BehaviourTree
 {
     public class CheckNode : BehaviourTreeNode
     {

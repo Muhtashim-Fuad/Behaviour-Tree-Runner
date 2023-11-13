@@ -1,6 +1,6 @@
 ﻿using System;
 using UnityEngine;
-using BehaviourTreePackage;
+using BehaviourTree;
 using UnityEngine.AI;
 
 namespace TankProject
@@ -18,7 +18,7 @@ namespace TankProject
         
         private float currentHealth = 0;
         private NavMeshAgent tankAgent = null;
-        private BehaviourTree behaviourTree = null;
+        private BehaviourTree.BehaviourTree behaviourTree = null;
 
         private void OnEnable()
         {
@@ -49,7 +49,7 @@ namespace TankProject
                     new LeafNode(Patrol)
                 );
 
-            behaviourTree = new BehaviourTree(rootNode, tickFrequency);
+            behaviourTree = new BehaviourTree.BehaviourTree(rootNode, tickFrequency);
         }
 
         private bool isEmergencyModeOn() => currentHealth < 0;
